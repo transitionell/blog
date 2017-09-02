@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "12709ef47e69594fcde22153da14444e",
+    "content-hash": "d0d0aa0cdca2435f7aef30172e72b566",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -391,16 +391,54 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ac7b1792641d1fb61cb2901db292903b31694057"
+                "reference": "db59b62af6f69b585e74e59d670d7d9ad04e0e88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ac7b1792641d1fb61cb2901db292903b31694057",
-                "reference": "ac7b1792641d1fb61cb2901db292903b31694057",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/db59b62af6f69b585e74e59d670d7d9ad04e0e88",
+                "reference": "db59b62af6f69b585e74e59d670d7d9ad04e0e88",
                 "shasum": ""
             },
             "require": {
+                "johnpbloch/wordpress-core": "4.7.2",
                 "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-03-18T04:47:24+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "adc498caffb06200f971f87dca9ef9eabacde654"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/adc498caffb06200f971f87dca9ef9eabacde654",
+                "reference": "adc498caffb06200f971f87dca9ef9eabacde654",
+                "shasum": ""
+            },
+            "require": {
                 "php": ">=5.3.2"
             },
             "type": "wordpress-core",
@@ -418,9 +456,10 @@
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
-                "cms"
+                "cms",
+                "wordpress"
             ],
-            "time": "2017-01-26T18:32:19+00:00"
+            "time": "2017-02-10T22:30:04+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1731,11 +1770,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/sendgrid-email-delivery-simplified/",
-                "reference": "trunk"
+                "reference": "tags/1.10.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.zip",
+                "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.1.10.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1744,6 +1783,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-theme/ignis",
+            "version": "1.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/ignis/",
+                "reference": "1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/ignis.1.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/ignis/"
         },
         {
             "name": "wpackagist-theme/twentyfifteen",
