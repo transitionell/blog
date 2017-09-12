@@ -30,7 +30,8 @@
 		"wp-cli/wp-cli": "^1.1.0",
 		"wpackagist-theme/twentyfifteen": "*",
 		"dzuelke/twentyfifteen-child": "*",
-		"wpackagist-theme/ignis": "^1.0.0"
+		"wpackagist-theme/ignis": "^1.0.0",
+		"wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.1"
 	},
 	"scripts": {
 		"wordpress-setup-core-install-prompt": "wp core install --prompt",
