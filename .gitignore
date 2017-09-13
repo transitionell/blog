@@ -3,3 +3,4 @@
 /wp-content/
 nginx-wordpress.conf
 .env
+.DS_Store
